@@ -1,0 +1,117 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(/images/bg-intro-mobile.png);
+}
+main {
+  width: 85%;
+  margin: 75px auto 50px;
+}
+h1 {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+#part1 p {
+  text-align: center;
+  line-height: 25px;
+  margin: 30px auto 40px;
+  color: rgba(255, 255, 255, 0.633);
+}
+#part2 p#Try-it-free {
+  background-color: hsl(248, 32%, 49%);
+  padding: 1.3rem 4rem;
+  text-align: center;
+  line-height: 22px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 8px 0px;
+  color: rgba(255, 255, 255, 0.633);
+}
+#part2 p#Try-it-free span {
+  font-weight: 500;
+}
+
+form {
+  background-color: white;
+  border-radius: 12px;
+  margin-top: 30px;
+  padding: 10px 0 25px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 8px 0px;
+}
+form input {
+  width: 90%;
+  height: 50px;
+  display: block;
+  margin: 15px auto 0;
+  border: 2px rgba(100, 94, 94, 0.213) solid;
+  border-radius: 8px;
+}
+form :nth-child(5) {
+  background-color: hsl(154, 59%, 51%);
+}
+
+p#terms-and-services {
+  color: rgba(63, 60, 60, 0.538);
+  width: 86%;
+  margin: 10px auto 0;
+  text-align: center;
+  font-size: 13px;
+}
+
+p#terms-and-services span {
+  color: hsl(0, 100%, 74%);
+}
+
+@media (min-width: 768px) {
+    main{
+        width: 65%;
+    }
+}
+
+@media (min-width: 992px)  {
+    main{
+        display: flex;
+        height: 50vh;
+        align-items: center;
+margin-top: 90px;
+width: 80%;
+    }
+    section{
+        width: 50%;        
+    }
+    h1{
+        font-size: 37px;
+        width: 80%;
+        margin: 0;
+
+    }
+    #part1 p{
+        text-align: start;
+        width: 90%;
+        margin: 35px 0;
+font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+
+
+@media (min-width: 1400px) {
+}
+/* - Blue: hsl(248, 32%, 49%)
+
+### Neutral
+
+- Dark Blue: hsl(249, 10%, 26%) 
+- Grayish Blue: hsl(246, 25%, 77%) */
